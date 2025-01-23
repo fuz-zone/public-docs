@@ -1,4 +1,4 @@
-site_name: My Documentation
+site_name: FUZ.zone documentation
 theme:
   name: readthedocs
 nav:
@@ -10,4 +10,3 @@ nav:
   - CI/CD Integration: ci-cd.md
   - Software Composition Analysis: sca.md
   - Pricing: pricing.md
-  - About: about.md
