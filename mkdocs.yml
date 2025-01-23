@@ -1,6 +1,25 @@
 site_name: FUZ.zone documentation
 theme:
   name: readthedocs
+  navigation_depth: 4
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+
 nav:
   - Home: index.md
   - Quick Start: quick-start.md
