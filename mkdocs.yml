@@ -5,16 +5,9 @@ nav:
   - Home: index.md
   - Quick Start: quick-start.md
   - Projects: projects.md
-  - Harnesses:
-    - Overview: harnesses/index.md
-    - Linux ELF/Shared Library: harnesses/linux.md
-    - Windows EXE/DLL: harnesses/windows.md
-    - Python: harnesses/python.md
-    - JVM: harnesses/jvm.md
-    - Rust: harnesses/rust.md
-    - Embedded/Full System: harnesses/embedded.md
-    - AI Harness Generation: harnesses/ai-generation.md
+  - Harnesses: harnesses/index.md
   - Coverage Analysis: coverage-analysis.md
   - CI/CD Integration: ci-cd.md
   - Software Composition Analysis: sca.md
+  - Pricing: pricing.md
   - About: about.md
