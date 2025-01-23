@@ -14,20 +14,27 @@ A fuzzing harness is a specialized piece of code that:
 ## Supported Platforms
 
 ### Native Applications
-- [Linux ELF/Shared Libraries](linux.md)
-- [Windows EXE/DLL](windows.md)
-- [Rust Applications](rust.md)
+- Linux ELF executables and shared libraries
+- Windows PE executables and DLLs
+- Rust applications with native compilation
 
 ### Managed Runtimes
-- [Python Applications](python.md)
-- [JVM Applications](jvm.md)
+- Python applications and modules
+- Java and JVM-based applications
+- .NET applications
 
 ### Special Environments
-- [Embedded Systems](embedded.md)
-- [Full System Emulation](embedded.md#system-emulation)
+- Embedded systems
+- Full system emulation
+- IoT devices
+- Mobile applications
 
-### Automated Creation
-- [AI-Assisted Generation](ai-generation.md)
+### AI-Assisted Generation
+Our platform can automatically generate harnesses using AI technology for:
+- Common APIs and protocols
+- Standard file formats
+- Network services
+- Web applications
 
 ## Best Practices
 
@@ -37,6 +44,28 @@ A fuzzing harness is a specialized piece of code that:
 4. Monitor memory usage
 5. Enable relevant sanitizers
 6. Document harness assumptions and limitations
+
+## Platform-Specific Guidelines
+
+### Linux
+- Support for both static and dynamic linking
+- ASAN/UBSAN integration
+- syscall interception
+
+### Windows
+- PE/COFF binary instrumentation
+- DLL injection capabilities
+- Exception handling
+
+### Python
+- Module-level fuzzing
+- Custom import hooks
+- Coverage tracking
+
+### JVM
+- Bytecode instrumentation
+- Custom classloaders
+- JNI support
 
 ## Choosing the Right Harness Type
 

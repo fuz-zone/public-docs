@@ -7,6 +7,4 @@ nav:
   - Projects: projects.md
   - Harnesses: harnesses/index.md
   - Coverage Analysis: coverage-analysis.md
-  - CI/CD Integration: ci-cd.md
-  - Software Composition Analysis: sca.md
   - Pricing: pricing.md
